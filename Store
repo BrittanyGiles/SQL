@@ -1,0 +1,21 @@
+create table store (id integer primary key,product TEXT,Price integer,QtySold integer,BestSeller integer);
+Insert into store VALUES 
+(1,"Socks",3.99,5,15),
+(2,"Shoes",25.99,4,14),
+(3,"TShirt",10.99,7,13),
+(4,"Sweater",22.99,8,12),
+(5,"Pjs",12.99,3,11),
+(6,"Pants",19.99,2,10),
+(7,"Bras",14.99,1,9),
+(8,"Sunglasses",7.99,4,8),
+(9,"Underwear",9.99,6,7),
+(10,"Jacket",36.99,7,6),
+(11,"YogaPants",15.99,9,5),
+(12,"Jeans",20.99,10,4),
+(13,"Shorts",16.99,11,3),
+(14,"Dress",24.99,13,2),
+(15,"SwimSuits",18.99,14,1);
+
+Select * from store;
+
+select sum(price) from store
